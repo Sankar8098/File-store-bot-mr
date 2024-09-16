@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7069719455:AAH4-JPntURcg5FodxFiCGezJgPRLaBoGyQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6420662369:AAHTVRTCfLoHnusAZTcBJOUPouNp4hs6nvk")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23562101"))
@@ -51,7 +51,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
